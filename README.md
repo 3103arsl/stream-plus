@@ -17,3 +17,4 @@ A brief description of what this project does and its purpose.
    cd stream-plus
    composer install
    symfony server:start
+   http://localhost:8000/
