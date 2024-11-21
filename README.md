@@ -16,5 +16,7 @@ A brief description of what this project does and its purpose.
    git clone https://github.com/3103arsl/stream-plus
    cd stream-plus
    composer install
+   php bin/console doctrine:database:create
+   php bin/console doctrine:migrations:migrate
    symfony server:start
    http://localhost:8000/
